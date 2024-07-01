@@ -28,13 +28,12 @@ html, body {
 h1{
   font-weight: bold;
   color: black;
-  font-size:X larger;
-
+  font-size: X larger;
 }
 
 h3{
   color: black;
-  font-size:larger;
+  font-size: larger;
   text-align: center;
   margin-top: 100px;
   overflow: hidden;
@@ -60,12 +59,10 @@ h3{
 }
 
 .mini-background{
-  background-color:#c97b84;
-  width:770px;
-  height:250px;
-  border-radius: 40px;
-  margin-left:30px;
-
-
+  background-color: #c97b84; /* Combined the background colors */
+  width: 770px;
+  height: 250px;
+  border-radius: 40px; /* Added border-radius from one of the conflicting parts */
+  margin-left: 30px; /* Added margin-left from one of the conflicting parts */
 }
 </style>
