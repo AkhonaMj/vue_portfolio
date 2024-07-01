@@ -1,10 +1,19 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <NavbarComp/>
   <router-view/>
+  <FooterComp/>
+
 </template>
+<script>
+import NavbarComp from '../src/components/NavbarCom.vue'
+
+export default {
+  components:{
+    NavbarComp
+  }
+  
+}
+</script>
 
 <style>
 #app {
