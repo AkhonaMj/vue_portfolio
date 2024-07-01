@@ -40,7 +40,7 @@ h3{
   overflow: hidden;
   white-space: nowrap;
   width: 0;
-  animation: typing 5s steps(49, end) forwards;
+  animation: typing 5s steps(59, end) forwards;
 }
 
 @keyframes typing {
