@@ -1,7 +1,9 @@
 <template lang="">
+ <div class="image-background" :style="{ backgroundImage: `url(${imageUrl})` }">
     <div>
         
     </div>
+</div>
 </template>
 
 

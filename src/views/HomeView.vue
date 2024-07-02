@@ -7,6 +7,7 @@
       </div>
     </div>
   </div>
+  
 </template>
 
 <script>
@@ -59,10 +60,10 @@ h3{
 }
 
 .mini-background{
-  background-color: #c97b84; /* Combined the background colors */
+  background-color: #c97b84; 
   width: 770px;
   height: 250px;
-  border-radius: 40px; /* Added border-radius from one of the conflicting parts */
-  margin-left: 30px; /* Added margin-left from one of the conflicting parts */
+  border-radius: 40px;
+  margin-left: 30px; 
 }
 </style>
