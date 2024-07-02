@@ -15,7 +15,6 @@ export default createStore({
   mutations: {
     setAboutMe(state, payload){
       state.aboutMe = payload;
-      console.log(state.aboutMe);
 
     },
     setProjects(state, payload){
