@@ -75,7 +75,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 html, body {
   height: 100%;
   margin: 0;
@@ -110,7 +110,7 @@ html, body {
 }
 
 .custom-padding-top {
-  padding-top: 50rem !important;
+  padding-top: 2rem !important;
 }
 .w{
   width: 40%;
