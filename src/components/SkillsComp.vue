@@ -110,7 +110,7 @@ html, body {
 }
 
 .custom-padding-top {
-  padding-top: 60rem; 
+  padding-top: 50rem !important;
 }
 .w{
   width: 40%;
