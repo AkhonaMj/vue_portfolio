@@ -1,17 +1,22 @@
 <template>
   <NavbarComp/>
   <router-view/>
+  <Spinner v-if="!$store.state.aboutMe" />
   <FooterComp/>
+
 
 </template>
 <script>
 import NavbarComp from '../src/components/NavbarCom.vue'
 import FooterComp from './components/FooterComp.vue';
+import Spinner from './components/SpinnerComp.vue'; // Adjust path based on your project structure
+
 
 export default {
   components:{
     NavbarComp,
-    FooterComp
+    FooterComp,
+    Spinner
   }
   
 }

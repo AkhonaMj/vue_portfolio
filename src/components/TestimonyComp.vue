@@ -75,4 +75,15 @@ export default {
     border-radius:30px;
     color:black;
 }
+@media (max-width: 992px) {
+  .img-carousel {
+    height: auto; /* Adjusted height for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    max-width: 600px; /* Adjusted max-width for smaller screens */
+  }
+}
 </style>
