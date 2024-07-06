@@ -77,13 +77,13 @@ export default {
 }
 @media (max-width: 992px) {
   .img-carousel {
-    height: auto; /* Adjusted height for smaller screens */
+    height: auto; 
   }
 }
 
 @media (max-width: 768px) {
   .carousel {
-    max-width: 600px; /* Adjusted max-width for smaller screens */
+    max-width: 600px;
   }
 }
 </style>
