@@ -12,8 +12,8 @@
                   <button>
                     <a :href="project.github" target="_blank" rel="noopener noreferrer" class="card-link">GitHub</a>
                   </button>
-                  <button v-if="project.vercel">
-                    <a :href="project.vercel" target="_blank" rel="noopener noreferrer" class="card-link">Vercel</a>
+                  <button v-if="project.hosted">
+                    <a :href="project.hosted" target="_blank" rel="noopener noreferrer" class="card-link">Hosted</a>
                   </button>
                 </div>
               </div>
