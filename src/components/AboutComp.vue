@@ -1,7 +1,7 @@
 <template>
   <div class="image-background" :style="{ backgroundImage: `url(${imageUrl})` }">
     <div class="about" v-if="aboutMe">
-      <h1 class="about">About Me</h1>
+      <h1>About Me</h1>
       <p>{{ aboutMe }}</p>
       <div class="about-image">
       </div>
@@ -36,7 +36,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .about p{
   font-size: 18px;
   background-color: rgba(244, 151, 142, 0.238);
@@ -44,6 +44,13 @@ export default {
   margin-left: 25em;
   margin-top: 10em;
   padding: 30px;
+  margin-bottom: 30px;
+}
+h1{
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: -3px;
+
 }
 
 </style>
