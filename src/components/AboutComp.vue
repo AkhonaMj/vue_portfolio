@@ -40,13 +40,11 @@ export default {
 .about p{
   font-size: 18px;
   background-color: rgba(244, 151, 142, 0.238);
-  width: 39em;
-  margin-left: 30em;
+  width: 50em;
+  margin-left: 25em;
   margin-top: 10em;
   padding: 30px;
-
- 
-
-
 }
+
+
 </style>
