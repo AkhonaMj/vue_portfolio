@@ -1,7 +1,7 @@
 <template>
     <div class="image-background" :style="{ backgroundImage: `url(${imageUrl})` }">
       <div class="container">
-        <h1>Resume</h1>
+        <h1>Education and Work Experience</h1>
         <div class="row">
           <div class="col-lg-12">
             <div class="card">

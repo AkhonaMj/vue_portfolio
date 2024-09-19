@@ -15,16 +15,10 @@
                 <router-link to="/about" class="nav-link">About</router-link> 
               </li>
               <li class="nav-item">
-                <router-link to="/skills" class="nav-link">Skills</router-link> 
-              </li>
-              <li class="nav-item">
                 <router-link to="/projects" class="nav-link">Projects</router-link> 
               </li>
               <li class="nav-item">
-                <router-link to="/resume" class="nav-link">Resume</router-link> 
-              </li>
-              <li class="nav-item">
-                <router-link to="/testimonials" class="nav-link">Testimonials</router-link> 
+                <router-link to="/resume" class="nav-link">Education and Experience</router-link> 
               </li>
               <li class="nav-item">
                 <router-link to="/contact" class="nav-link">Get in Touch</router-link> 

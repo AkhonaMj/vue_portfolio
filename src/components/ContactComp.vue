@@ -3,7 +3,6 @@
       <h1>Get in Touch</h1>
       <div class="contact-container">
           <div class="contact-details">
-            <h2 class="cont-head">More options to reach out</h2>
           <img src="https://akhonamj.github.io/portfolio_images/call.png" alt="" class="icon">
           <h5>Call: 0793819862</h5>
           <img src="https://akhonamj.github.io/portfolio_images/email.png" alt="" class="icon">

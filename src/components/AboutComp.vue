@@ -1,17 +1,23 @@
 <template>
   <div class="image-background" :style="{ backgroundImage: `url(${imageUrl})` }">
     <div class="about" v-if="aboutMe">
-      <h1>About Me</h1>
+      <h1 class="about">About Me</h1>
       <p>{{ aboutMe }}</p>
+      <div class="about-image">
+      </div>
     </div>
+    <Skills />
   </div>
 </template>
 
 <script>
+import Skills from "../components/SkillsComp.vue"
 export default {
+  components: { Skills },
   data() {
     return {
       imageUrl: "https://akhonamj.github.io/portfolio_images/plain-beige-myryswi114smviw6.jpg"
+
     }
   },
   computed: {
@@ -31,70 +37,16 @@ export default {
 </script>
 
 <style>
-html, body {
-  height: 100%;
-  margin: 0;
-}
+.about p{
+  font-size: 18px;
+  background-color: rgba(244, 151, 142, 0.238);
+  width: 36em;
+  margin-left: 30em;
+  margin-top: 10em;
+  padding: 30px;
 
-.image-background {
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+ 
 
-h1 {
-  color: black;
-}
 
-.about {
-  background-color: rgba(244, 151, 142, 0.51); 
-  width: 90%;
-  max-width: 870px;
-  height: auto;
-  border-radius: 20px;
-  padding: 14px;
-  font-size: large; 
-  color: black;
-  text-align: center;
-}
-
-.about:hover {
-  box-shadow: 0 0 10px 0 rgba(10, 16, 10, 20);
-  background-color: #f0a6ca; 
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
-  .about {
-    font-size: medium;
-    padding: 25px; 
-    margin-top: 20px; 
-    margin-bottom: 20px; 
-  }
-  p {
-    width: 100%;
-    max-width: 100%;
-    font-size: medium;
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-  .about {
-    font-size: small;
-    padding: 8px; 
-  }
-  p {
-    font-size: small;
-  }
 }
 </style>
