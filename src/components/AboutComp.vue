@@ -41,10 +41,11 @@ export default {
   font-size: 18px;
   background-color: rgba(244, 151, 142, 0.238);
   width: 50em;
-  margin-left: 25em;
-  margin-top: 10em;
+  margin-left: 10em;
+  margin-top: 100px;
   padding: 30px;
   margin-bottom: 30px;
+  justify-content: center;
 }
 h1{
   margin-top: 60px;
