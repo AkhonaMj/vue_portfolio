@@ -37,21 +37,39 @@ export default {
 </script>
 
 <style scoped>
-.about p{
+.about {
+  padding: 20px;
+}
+
+.about p {
   font-size: 18px;
   background-color: rgba(244, 151, 142, 0.238);
-  width: 50em;
-  margin-left: 10em;
-  margin-top: 100px;
-  padding: 30px;
+  width: 100%;
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  margin-top: 40px; 
   margin-bottom: 30px;
-  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
-h1{
-  margin-top: 60px;
+
+h1 {
+  margin-top: 40px;
   text-align: center;
-  margin-bottom: -3px;
-
+  margin-bottom: 10px; 
 }
 
+
+@media (max-width: 768px) {
+  .about p {
+    font-size: 16px; 
+    width: 90%; 
+    padding: 15px; 
+  }
+
+  h1 {
+    margin-top: 30px;
+    font-size: 24px;
+  }
+}
 </style>

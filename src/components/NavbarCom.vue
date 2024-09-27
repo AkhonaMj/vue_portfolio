@@ -15,11 +15,12 @@
                 <router-link to="/about" class="nav-link">About</router-link> 
               </li>
               <li class="nav-item">
-                <router-link to="/projects" class="nav-link">Projects</router-link> 
-              </li>
-              <li class="nav-item">
                 <router-link to="/resume" class="nav-link">Education and Experience</router-link> 
               </li>
+              <li class="nav-item">
+                <router-link to="/projects" class="nav-link">Projects</router-link> 
+              </li>
+             
               <li class="nav-item">
                 <router-link to="/contact" class="nav-link">Get in Touch</router-link> 
               </li>
